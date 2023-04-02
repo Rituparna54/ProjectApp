@@ -1,0 +1,13 @@
+Inserting data to Orders :-
+<br>
+<form (submit)="onSubmit()">
+<div>
+    <label for="orderItems">OrderItems:</label>
+      <input type="text" id="orderItems" name="orderItems" [(ngModel)]="orderItems">
+</div>
+<div>
+    <label for="restaurentName">RestaurentName :</label>
+      <input type="text" id="restaurentName" name="restaurentName" [(ngModel)]="restaurentName">
+</div>
+  <button type="submit">Submit</button>
+  </form>
